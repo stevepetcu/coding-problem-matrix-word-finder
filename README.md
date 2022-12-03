@@ -16,3 +16,6 @@ For example, given the following matrix:
 
 and the target word `FOAM`, you should return true, since it's the leftmost column. 
 Similarly, given the target word `MASS`, you should return true, since it's the last row.
+
+> Marginalia: I'll make this return the coordinates of the first and last letter if the word is present, or `[(-1, -1), (-1, -1)]` if it is not.
+> And also be case-insensitive.
